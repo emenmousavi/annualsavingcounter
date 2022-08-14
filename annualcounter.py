@@ -35,7 +35,7 @@ print("Have you written your answers in Dollar?")
 
 yesno = (input())
 
-if yesno == "yes":
+if yesno == "yes" or "Yes":
     print(("So, Your Monthly Saving will be $") + str(Left) + (" And your Annual Saving would be $") + str(an_left))
 else:
     print("Please write your currency value to dollar:")
